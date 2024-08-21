@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        .p{
+            height: 600px;
+            width: 600px;
+            display: grid;
+            grid-template-rows: 300px 300px 300px 300px;
+            grid-template-columns: 300px 300px 300px;
+            grid-template-rows:repeat(3,auto);
+            grid-template-columns: repeat(4,auto);
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+        .c1{
+            background-color: green;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }  
+        .c2{
+            background-color: green;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        } 
+        .c3{
+            background-color:red;
+        }
+        .c4{
+            background-color: yellow;
+        }
+        .c5{
+            background-color: red;
+        }
+        .c6{
+            background-color: red;
+        }
+        .c7{
+            background-color: yellow;
+        }
+        .c8{
+            background-color: green;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 4;
+            grid-column-end: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="p">
+        <div class="c1 "></div>
+        <div class="c2 "></div>
+        <div class="c3 "></div>
+        <div class="c4 "></div>
+        <div class="c5 "></div>
+        <div class="c6 "></div>
+        <div class="c7 "></div>
+        <div class="c8 "></div>
+        <div class="c9 "></div>
+    </div>
+    
+</body>
+</html>
